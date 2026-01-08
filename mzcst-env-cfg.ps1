@@ -29,9 +29,8 @@ python -m build
 python -m twine upload --repository testpypi dist/* --verbose
 
 
-# 安装
-pip install -i https://test.pypi.org/simple/ mzcst-2024
-pip install -i https://test.pypi.org/simple/ --upgrade mzcst-2024
+# 安装测试包
+pip install -i https://test.pypi.org/simple/ --upgrade mzcst-2026
 
 
 # 正式服
