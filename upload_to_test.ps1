@@ -11,7 +11,7 @@ python -m build
 # API token
 # 测试服
 Write-Output "上传到测试服"
-python -m twine upload --repository testpypi dist/* --verbose
+python -m twine upload --repository testpypi dist/* #--verbose
 
 # exit 0 # 提前退出脚本
 
@@ -31,5 +31,5 @@ python -m twine upload --repository testpypi dist/* --verbose
 # 更新测试包
 Write-Output "更新测试包"
 conda activate mzcst-test
-# pip install -i https://test.pypi.org/simple/ --upgrade mzcst-2024
+# pip install -i https://test.pypi.org/simple/ --upgrade mzcst-2026
 pip install -e .

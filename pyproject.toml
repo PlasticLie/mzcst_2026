@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mzcst_2026"
-version = "2026.1.8.1712"
+version = "2026.01.08.2259"
 authors = [
     { name = "Li Mengzi", email = "limengzi96@outlook.com" },
 ]
@@ -54,5 +54,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/PlasticLie/mzcst_2024"
-Issues = "https://github.com/PlasticLie/mzcst_2024/issues"
+Homepage = "https://github.com/PlasticLie/mzcst_2026"
+Issues = "https://github.com/PlasticLie/mzcst_2026/issues"

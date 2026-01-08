@@ -82,7 +82,8 @@ if __name__ == "__main__":
     # PROJECT_PATH: str = "cst_projects"
     # create_folder(PROJECT_PATH)
     # PROJECT_ABSOLUTE_PATH: str = os.path.join(PARENT_PATH, PROJECT_PATH)
-    PROJECT_ABSOLUTE_PATH: str = r"D:\CST-2024-local\fss-rumpf-local"
+    PROJECT_ABSOLUTE_PATH: str = r"C:\Users\Public\Documents\CST-2024-local"
+    mz.common.create_folder(PROJECT_ABSOLUTE_PATH)
     filename: str = "flat-demo-" + current_time + ".cst"
     fullname: str = os.path.join(PROJECT_ABSOLUTE_PATH, filename)
     logger.info('Project full path: "%s"', fullname)
@@ -90,6 +91,7 @@ if __name__ == "__main__":
     proj: "interface.Project" = design_env.new_mws()
     m3d: "interface.Model3D" = proj.model3d
     logger.info("CST started.")
+    # os.startfile(PROJECT_ABSOLUTE_PATH)
 
     # endregion
     # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
@@ -163,7 +165,7 @@ if __name__ == "__main__":
     # region CST建模
     # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
-    ARRAY_SIZE = (5, 5)  # (row, col)
+    ARRAY_SIZE = (10, 10)  # (row, col)
     ARRAY_LENGTH = (
         l_sub * Parameter(ARRAY_SIZE[0]),
         w_sub * Parameter(ARRAY_SIZE[1]),
