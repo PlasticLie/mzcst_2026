@@ -17,18 +17,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
-import mzcst_2024 as mz
-from mzcst_2024 import _global, common, component, interface, material
-from mzcst_2024 import profiles_to_shapes as p2s
-from mzcst_2024 import shape_operations as so
-from mzcst_2024 import solver
-from mzcst_2024 import transformations_and_picks as tp
-from mzcst_2024._global import Parameter
-from mzcst_2024.plot import Plot
-from mzcst_2024.sources_and_ports.hf import Port
-from mzcst_2024.transformations_and_picks import WCS
-from mzcst_2024.utils.unit_cells import JerusalemCross
-from mzcst_2024.utils.waveguides import WR90
+import mzcst_2026 as mz
+from mzcst_2026 import _global, common, component, interface, material
+from mzcst_2026 import profiles_to_shapes as p2s
+from mzcst_2026 import shape_operations as so
+from mzcst_2026 import solver
+from mzcst_2026 import transformations_and_picks as tp
+from mzcst_2026._global import Parameter
+from mzcst_2026.plot import Plot
+from mzcst_2026.sources_and_ports.hf import Port
+from mzcst_2026.transformations_and_picks import WCS
+from mzcst_2026.utils.unit_cells import JerusalemCross
+from mzcst_2026.utils.waveguides import WR90
 
 if __name__ == "__main__":
     #######################################

@@ -1,5 +1,5 @@
-import mzcst_2024 as mz
-from mzcst_2024 import Parameter, math_
+import mzcst_2026 as mz
+from mzcst_2026 import Parameter, math_
 
 if __name__ == "__main__":
     a = Parameter("a", 1.5)

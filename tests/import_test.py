@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # This is a demo script to show how to use mzcst
     for i, p in enumerate(sys.path):
         print(f"{i:2d}: {p}")
-    import mzcst_2024 as mz
+    import mzcst_2026 as mz
 
     print(mz.__version__)
     print(mz.__file__)

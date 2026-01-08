@@ -16,7 +16,7 @@ import sys
 import time
 import zipfile
 
-from mzcst_2024.common import time_to_string
+from mzcst_2026.common import time_to_string
 
 if __name__ == "__main__":
     timestamps: list[float] = [time.perf_counter()]
