@@ -16,6 +16,9 @@
 注意：本模块基于 `Python 3.12.9`、`CST Studio Suite 2026` 环境开发和调试，未在
 其它环境测试过。
 
+CST 内置 Python 路径：
+`"C:\Program Files\CST Studio Suite 2026\Python"`
+
 
 以下内容来自CST官方帮助文档。
 

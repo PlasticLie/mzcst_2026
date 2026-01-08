@@ -1,5 +1,7 @@
 # dir 不需要提交的目录
 /dist/
+/.venv
+/*.venv
 ​
 # file 不需要提交的文件
 # /src/*/__pycache__/*.pyc

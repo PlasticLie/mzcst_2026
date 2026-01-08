@@ -17,16 +17,16 @@
 
 import sys
 
-# sys.path.append(r"C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries")
+sys.path.append(r"C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries")
 
 import importlib_metadata
 
 __version__ = importlib_metadata.version("mzcst-2026")
 
+# from . import radar  # cst.radar
 from . import asymptotic  # cst.asymptotic
 from . import eda  # cst.eda
 from . import interface  # cst.interface
-from . import radar  # cst.radar
 from . import results  # cst.results
 from . import units  # cst.units
 from . import (  # cst.asymptotic; _global,
