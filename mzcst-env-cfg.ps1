@@ -1,10 +1,12 @@
 # mzcst-test
-conda create -n mzcst-test python=3.10.16
+conda create -n mzcst-test python=3.12.9
 conda activate mzcst-test
-conda install pytorch=2.5.1=cuda126_mkl_py310_h5866544_316 torchvision torchaudio pyyaml ipykernel seaborn dill pandas pyglet importlib-metadata setuptools gymnasium pygame numpy scipy matplotlib h5py build twine tqdm
-pip install --upgrade tomli tomli-w
-pip install --no-index --find-links "C:/Program Files (x86)/CST Studio Suite 2024/Library/Python/repo/simple" cst-studio-suite-link
-pip install -e .
+conda install pytorch torchvision torchaudio pyyaml ipykernel seaborn dill pandas pyglet importlib-metadata setuptools gymnasium pygame 
+conda install ezdxf ipython pywin32 PyYAML numpy scipy threadpoolctl cbor2 cupy-cuda12x fabric gerber_writer h5py matplotlib pandas pip-licenses plotly pydantic pyparsing PySide6 QtPy SDF tables tkinterweb traitlets
+conda install tqdm twine
+python -m pip install --upgrade tomli tomli-w build wheel hatchling
+python -m pip install --editable "C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries"
+python -m pip install -e .
 
 
 # 封包

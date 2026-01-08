@@ -5,16 +5,16 @@ requires = [
 build-backend = "hatchling.build"
 
 [project]
-name = "mzcst_2024"
+name = "mzcst_2026"
 version = "2025.12.28.1434"
 authors = [
     { name = "Li Mengzi", email = "limengzi96@outlook.com" },
 ]
-description = "An interface for Python 3.10 and CST Studio Suite 2024. It may work on newer versions, but it is not guaranteed."
+description = "An interface for Python 3.12 and CST Studio Suite 2026. It may work on newer versions, but it is not guaranteed."
 readme = "README.md"
-requires-python = ">=3.10, <=3.11"
+requires-python = ">=3.12, <=3.13"
 classifiers = [
-    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.12",
     "Operating System :: Microsoft :: Windows",
 ]
 license = "MIT"
@@ -22,10 +22,32 @@ license-files = [
     "LICEN[CS]E*",
 ]
 dependencies = [
-    "numpy>=1.21.4",
-    "scipy>=1.5.4",
-    "matplotlib>=3.3.4",
-    "h5py>=3.6.0",
+    "ezdxf>=1.4.1",
+    "ipython>=9.1.0",
+    "numpy>=2.2.4",
+    "pywin32>=310",
+    "PyYAML>=6.0.2",
+    "scipy>=1.15.2",
+    "threadpoolctl>=3.6.0",
+    "cbor2>=5.6.5",
+    "cupy-cuda12x>=13.4.1",
+    "fabric>=3.2.2",
+    "gerber_writer>=0.4.3.3",
+    "h5py>=3.13.0",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "pip-licenses>=5.0.0",
+    "plotly>=6.0.1",
+    "pydantic>=2.11.3",
+    "pyparsing>=3.2.3",
+    "PySide6>=6.9.0",
+    "QtPy>=2.4.3",
+    "SDF>=0.3.6",
+    "tables>=3.10.2",
+    "tkinterweb>=4.3.1",
+    "traitlets>=5.14.3",
+    "build>=1.2.2",
+    "wheel>=0.45.1",
 ]
 
 [project.urls]

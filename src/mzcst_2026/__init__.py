@@ -1,4 +1,4 @@
-"""实现与CST 2024交互的接口。包括`cst.interface`、`cst.results`、`cst.eda`、
+"""实现与CST 2026交互的接口。包括`cst.interface`、`cst.results`、`cst.eda`、
 `cst.asymptotic`、`cst.radar`、`cst.units`。
 
 
@@ -8,7 +8,7 @@
 
 至少本包内其他模块都通过本模块的接口间接与CST交互。
 
-注意：本模块基于 `Python 3.10.16`、`CST Studio Suite 2024 SP5` 环境开发和调试，未在
+注意：本模块基于 `Python 3.12.9`、`CST Studio Suite 2026` 环境开发和调试，未在
 其它环境测试过。
 
 """
@@ -17,11 +17,11 @@
 
 import sys
 
-sys.path.append(r"C:\Program Files (x86)\CST Studio Suite 2024\AMD64\python_cst_libraries")
+# sys.path.append(r"C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries")
 
 import importlib_metadata
 
-__version__ = importlib_metadata.version("mzcst-2024")
+__version__ = importlib_metadata.version("mzcst-2026")
 
 from . import asymptotic  # cst.asymptotic
 from . import eda  # cst.eda
