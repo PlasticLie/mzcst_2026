@@ -19,9 +19,9 @@ import sys
 
 sys.path.append(r"C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries")
 
-import importlib_metadata
+import importlib.metadata
 
-__version__ = importlib_metadata.version("mzcst-2026")
+__version__ = importlib.metadata.version("mzcst-2026")
 
 # from . import radar  # cst.radar
 from . import asymptotic  # cst.asymptotic

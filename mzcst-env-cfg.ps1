@@ -7,7 +7,13 @@ python -m pip install --upgrade tomli tomli-w build wheel hatchling
 python -m pip install --editable "C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries"
 python -m pip install -e .
 
-pip install --no-index --find-links "C:/Program Files (x86)/CST Studio Suite 2024/Library/Python/repo/simple" cst-studio-suite-link
+# venv包
+cd "path\to\mzcst_2026"
+"C:\Program Files\CST Studio Suite 2026\Python\python.exe" -m venv .venv
+.\.venv\Scripts\activate.ps1
+python -m pip install -e .
+python -m pip install --upgrade tomli tomli-w build wheel hatchling tqdm twine
+python -m pip install --upgrade pytorch torchvision torchaudio pyyaml ipykernel seaborn dill pandas pyglet importlib-metadata setuptools gymnasium pygame 
 
 # 封包
 
