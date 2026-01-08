@@ -15,11 +15,8 @@
 
 # __version__ = "2025.5"
 
-import sys
-
-sys.path.append(r"C:\Program Files\CST Studio Suite 2026\AMD64\python_cst_libraries")
-
 import importlib.metadata
+import sys
 
 __version__ = importlib.metadata.version("mzcst-2026")
 
